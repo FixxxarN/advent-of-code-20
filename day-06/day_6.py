@@ -32,6 +32,7 @@ for group in groups:
         group.replace('\n', ''))
     sum_of_yes_questions += count_yes_answers_in_group(group)
 
+
 # Part 1
 print(sum_of_answered_questions)
 
